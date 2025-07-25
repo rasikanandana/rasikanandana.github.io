@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rasika Nandana | EEW & Mechatronics Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #1e1e2f;
+      --accent-color: #00bcd4;
+      --text-color: #f5f5f5;
+      --bg-color: #121212;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: var(--primary-color);
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    .profile-pic {
+      width: 120px;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+      border: 2px solid var(--accent-color);
+    }
+
+    nav {
+      background: var(--accent-color);
+      text-align: center;
+    }
+
+    nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      list-style: none;
+    }
+
+    nav ul li {
+      margin: 0.5rem 1rem;
+    }
+
+    nav ul li a {
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .container {
+      padding: 2rem 1rem;
+      max-width: 960px;
+      margin: auto;
+    }
+
+    section h2 {
+      margin-bottom: 1rem;
+      color: var(--accent-color);
+      border-bottom: 2px solid var(--accent-color);
+      padding-bottom: 0.3rem;
+    }
+
+    ul li {
+      margin: 0.5rem 0;
+    }
+
+    form input,
+    form textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin: 0.5rem 0;
+      border: none;
+      border-radius: 4px;
+    }
+
+    form button {
+      background: var(--accent-color);
+      color: #000;
+      border: none;
+      padding: 0.7rem 1.2rem;
+      cursor: pointer;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+
+    footer {
+      background: #000;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      nav ul {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <img src="IMG_3552.jpg" alt="Rasika Nandana" class="profile-pic">
+      <h1>W.A. Rasika Nandana</h1>
+      <p>Engineer & Researcher in EEW & Mechatronics</p>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="about" class="container">
+      <h2>About Me</h2>
+      <p>PhD candidate at Victoria University of Wellington, focusing on Earthquake Early Warning (EEW) systems, Mechatronics, and IoT. Former Lecturer in Mechanical Engineering at the Open University of Sri Lanka. Experienced in automation, control theory, and data science.</p>
+    </section>
+
+    <section id="research" class="container">
+      <h2>Research</h2>
+      <p>My research focuses on the development and evaluation of Earthquake Early Warning (EEW) systems using low-cost MEMS sensors and distributed architectures. I also explore applications in remote laboratory platforms and engineering education.</p>
+      <ul>
+        <li><a href="https://scholar.google.com/citations?hl=en&user=M93WelAAAAAJ" target="_blank">Google Scholar</a></li>
+        <li><a href="https://www.researchgate.net/profile/Rasika-Nandana" target="_blank">ResearchGate</a></li>
+        <li><a href="https://www.linkedin.com/in/rasika-nandana-18556428/" target="_blank">LinkedIn</a></li>
+      </ul>
+    </section>
+
+    <section id="projects" class="container">
+      <h2>Projects / Portfolio</h2>
+      <ul>
+        <li><strong>Low-cost EEW System</strong> – MEMS-based distributed alerting system with real-time capabilities.</li>
+        <li><strong>Remote Lab Platform</strong> – Online access to physical lab experiments for engineering education.</li>
+        <li><strong>IoT & Control Systems</strong> – Integration of embedded systems for automation and monitoring.</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="container">
+      <h2>Contact Me</h2>
+      <form action="https://formspree.io/f/your-form-id" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+      <p>Or email me directly at <a href="mailto:rasikanandana@gmail.com">rasikanandana@gmail.com</a></p>
+      <p><a href="/Rasika_CV.pdf" download>Download My CV</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Rasika Nandana</p>
+  </footer>
+</body>
+</html>
